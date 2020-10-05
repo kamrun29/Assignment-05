@@ -1,0 +1,225 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part css start here */
+header{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+nav{
+    width: 50%;
+    float: right;
+}
+nav ul{
+list-style: none;
+}
+nav ul li{
+    float: left;
+    margin-left: 84px;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+/* header part css end here */
+.banner{
+    width: 90%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+/* photodairy part css start here */
+.photodairy{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.photodairy h1{
+text-transform: capitalize;
+font-size: 30px;
+color: #626262;
+margin-bottom: 30px;
+}
+.photodairy h6{
+color: #b4ad9e;
+font-size: 14px;
+text-transform: uppercase;
+margin-bottom: 20px;
+font-family: 'Ubuntu', sans-serif;
+}
+.photodairy p{
+    
+color: #626262;
+    
+font-size: 16px;
+    
+margin-bottom: 30px;
+font-family:  'Playfair Display', serif;
+}
+/* photodairy part css end here */
+
+/*lifestyle part css start here */
+
+.lifestyle{
+    width: 80%;
+    margin: auto;
+}
+.lifestyle-content{
+overflow: hidden;
+margin-bottom: 100px;
+}
+.lifestyle_one{
+float: left;
+width: 45%;
+}
+.lifestyle_one img, .lifestyle_two img{
+   width: 100%; 
+}
+.lifestyle_one h1,.lifestyle_two h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #626262;
+    margin-bottom: 15px;
+    font-family:  'Playfair Display', serif;
+}
+.lifestyle_one h6,.lifestyle_two h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin: 15px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.lifestyle_one p, .lifestyle_two p{
+    font-size: 14px;
+    color: #626262;
+    line-height: 1.5;
+    letter-spacing: 1;
+}
+.lifestyle_two{
+float: right;
+width: 45%;
+}
+
+/* lifestyle part css end here */
+
+/* newsletter part css start here */
+.newsletter{
+
+background-color: #f0f0f0;
+
+padding: 50px 0px;
+}
+.news{
+    width: 30%;
+    margin: auto;
+    position: relative;
+
+}
+.news h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #626262;
+    padding-bottom: 70px;
+
+}
+.news input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 100%;
+    outline: none;
+    
+}
+.news input::placeholder{
+    font-size: 14px;
+    color: #626262;
+    text-transform: capitalize;
+    font-family:  'Playfair Display', serif;
+}
+.icon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+/* newsletter part css end here */
+
+
+/* load more section start here  */
+.load-more{
+    height: 400px;
+    width: 100%;
+
+}
+.load-more h1{
+    width: 15%;
+    padding: 15px;
+    border: 1px solid #626262;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family:  'Playfair Display', serif;
+}
+/* load more section end here  */
+
+/* footer part start here  */
+footer{
+    background-color: #f0f0f0;
+    padding: 50px;
+
+
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.terms{
+    width: 25%;
+    float: left;
+
+}
+.terms ul{
+    list-style: none;
+    overflow: hidden;
+    
+}
+.terms ul li{
+    float: left;
+    margin-right: 20px;
+    text-transform: capitalize;
+    
+}
+.social-icon{
+    width: 20%;
+    float: right;
+
+}
+.social-icon ul{
+    list-style: none;
+    overflow: hidden;
+    
+}
+.social-icon ul li{
+    float: left;
+    margin-left: 29px;
+    
+}
+
+
+
+/* footer part end here  */
+
